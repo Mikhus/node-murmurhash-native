@@ -51,17 +51,6 @@ export declare const murmurhash64: MurmurFunction;
 export declare const murmurHash64x64: MurmurFunction;
 export declare const murmurHash64x32: MurmurFunction;
 
-export declare const BE = {
-    murmurHash,
-    murmurHash32,
-    murmurHash128,
-    murmurHash128x64,
-    murmurHash128x86,
-    murmurhash64,
-    murmurHash64x64,
-    murmurHash64x32,
-};
-
 export declare namespace BE {
     export const murmurHash: MurmurFunction;
     export const murmurHash32: MurmurFunction;
